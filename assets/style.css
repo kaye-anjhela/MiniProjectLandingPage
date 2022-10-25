@@ -1,0 +1,80 @@
+body {
+    margin: 0 auto;
+    background: skyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 18px;
+    width: 100%;
+}
+
+/* changing position to sticky doesn't allow scrolling without JS */
+header {
+    background: white;
+    position: fixed;
+}
+
+h1 {
+    color: darkcyan;
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+}
+
+.contents {
+    text-align: center;
+    padding: 1em;
+}
+
+.contents ul {
+    list-style-type: none;
+}
+.links {
+    display: inline-block;
+}
+
+.container {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
